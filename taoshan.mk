@@ -202,15 +202,15 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-PRODUCT_PACKAGES += \
-    alsa.msm8960 \
-    audio_policy.msm8960 \
-    audio.primary.msm8960 \
-    audio.a2dp.default \
-    audio.usb.default \
-    audio.r_submix.default \
-    libaudio-resampler \
-    tinymix
+#PRODUCT_PACKAGES += \
+#    alsa.msm8960 \
+#    audio_policy.msm8960 \
+#    audio.primary.msm8960 \
+#    audio.a2dp.default \
+#    audio.usb.default \
+#    audio.r_submix.default \
+#    libaudio-resampler \
+#    tinymix
 
 PRODUCT_PACKAGES += \
     hwcomposer.msm8960 \
@@ -235,11 +235,11 @@ PRODUCT_PACKAGES += \
     e2fsck
 
 # FM radio
-PRODUCT_PACKAGES += \
-    qcom.fmradio \
-    libqcomfm_jni \
-    FM2 \
-    FMRecord
+#PRODUCT_PACKAGES += \
+#    qcom.fmradio \
+#    libqcomfm_jni \
+#    FM2 \
+#    FMRecord
 
 # GPS-1
 PRODUCT_PACKAGES += \
